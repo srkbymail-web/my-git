@@ -14,3 +14,7 @@ echo "count is: $COUNT"
 FRUITS=("apple" "banana" "carrot")
 
 echo "All fruits:${FRUITS[@]}"
+echo "first fruit:${FRUITS[1]}"
+
+name="Sivakumar Reddy M"
+echo "{name}ettukuru"
