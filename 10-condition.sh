@@ -8,7 +8,7 @@ exit 1
 fi
 
 echo "proceeding....."
-dnf install nginxxxxx -y
+dnf install nginx -y
 
 if [ $? -ne 0 ]; then
    echo "nginx installation is failed"
