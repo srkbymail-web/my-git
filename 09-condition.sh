@@ -13,8 +13,7 @@ if [ $marks -lt 60 ]; then
    echo "second class"
 fi   
 if [ $marks -lt 75 ]; then
-   echo "first class"
-fi   
+   echo "first class"  
 else
    echo "distinction"
 fi  
