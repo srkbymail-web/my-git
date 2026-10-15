@@ -9,4 +9,4 @@ echo "$(($var1+$var2+$var3))"
 
 FRUITS=("apple" "banana" "carrot")
 
-echo "All fruits:$FRUITS[@]"
+echo "All fruits:${FRUITS[@]}"
