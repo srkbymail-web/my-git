@@ -15,4 +15,3 @@ else
    echo "distinction"
 fi   
 
-echo "END"
