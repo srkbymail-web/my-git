@@ -30,7 +30,7 @@ if [ $? -ne 0 ]; then
    dnf install "${package}" -y &>> logs_file
    validate $? "installing ${package}"
 else 
-   echo "already installed: ${package} Skipped...."   
+   echo "${package} already installed:  Skipped...."   
 fi
 
 done
