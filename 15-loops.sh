@@ -27,10 +27,10 @@ do
 dnf installed $package
 if [ $? -ne 0 ]; then
    echo "going to install:${package}"
-   dnf install $package -y &>> logs_file
+   dnf install "${package}" -y &>> logs_file
    validate $? "installing ${package}"
 else 
    echo "already installed: ${package} Skipped...."   
 fi
-   
+
 done
