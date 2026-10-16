@@ -19,5 +19,5 @@ echo "proceeding...."
 dnf install nginx -y
 validate $? "nginx installation"
 
-dnf install mysql -y
+dnf install mariadb105 -y
 validate $? "mysql installation"
