@@ -31,4 +31,6 @@ if [ $? -ne 0 ]; then
    validate $? "installing ${package}"
 else 
    echo "already installed: ${package} Skipped...."   
+fi
+   
 done
