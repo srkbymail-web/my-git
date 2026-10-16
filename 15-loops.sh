@@ -24,7 +24,7 @@ fi
 }
 for package in $@
 do 
-dnf installed $package
+dnf list installed $package
 if [ $? -ne 0 ]; then
    echo "going to install:${package}"
    dnf install "${package}" -y &>> logs_file
