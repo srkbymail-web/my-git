@@ -23,10 +23,10 @@ else
 fi       
 }
 echo "proceeding...."
-dnf install nginx -y &>> $log_file
+dnf install nginx -y &>> $logs_file
 validate $? "nginx installation"
 
-dnf install mariadb105 -y &>> $log_file
+dnf install mariadb105 -y &>> $logs_file
 validate $? "mysql installation"
 
 echo "script execution completed at: $(date +"%F %T")"
